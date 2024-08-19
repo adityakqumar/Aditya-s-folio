@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home {
+    background-color: #433585;
+    padding: 100px 50px;
+}
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.intro-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+/* Header */
+header {
+    background-color: #242424;
+    padding: 20px 0;
+}
+
+header .intro h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Section: Skills */
+#skills {
+    background-color: #2a2a2a;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+}
+
+#skills button {
+    background-color: #ffb400;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Section: Portfolio */
+#portfolio {
+    background-color: #1f1f1f;
+    padding: 40px 0;
+}
+
+#portfolio .project {
+    margin-bottom: 40px;
+}
+
+#portfolio .project h3 {
+    font-size: 1.5em;
+}
+
+#portfolio .project img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+#portfolio button {
+    background-color: #ffb400;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Section: Stats */
+#stats {
+    background-color: #2a2a2a;
+    text-align: center;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#stats .stat {
+    width: 20%;
+}
+
+#stats .stat h3 {
+    font-size: 2em;
+}
+
+/* Footer */
+footer {
+    background-color: #242424;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+footer .social-links a {
+    color: #ffb400;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
